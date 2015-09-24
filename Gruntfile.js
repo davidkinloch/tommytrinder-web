@@ -8,9 +8,9 @@ module.exports = function(grunt) {
             // 2. Configuration for concatinating files goes here.
             dist: {
                 src: [
-                    
-                    'js/main.js',  // This specific file
-                    'js/libs/*.js' // All JS in the libs folder
+                    'js/libs/*.js', // All JS in the libs folder
+                    'js/main.js'  // This specific file
+                
                 ],
                 dest: 'js/build/production.js',
             }
@@ -34,30 +34,25 @@ module.exports = function(grunt) {
             }
         },
 
-        less: {
-          development: {
-            options: {
-              compress: true,
-              yuicompress: true,
-              optimization: 2
-            },
-            files: {
-              // target.css file: source.less file
-              "css/main.css": "less/main.less"
+        sass: {
+            dist: {
+                options: {
+                    sourcemap: false,
+                    style: 'compressed'
+                },
+                files: {
+                    'css/main.css' : 'sass/main.scss'
+                }
             }
-          }
         },
 
         watch: {
             options: {
                 livereload:12345,
             },
-            styles: {
-                files: ['less/*.less'], // which files to watch
-                tasks: ['less'],
-                options: {
-                  nospawn: true
-                }
+            css: {
+                files: ['sass/*.scss'], // which files to watch
+                tasks: ['sass']
               },
             scripts: {
                 files: ['js/*.js'],
@@ -73,11 +68,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
-    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'less']);
+    grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass']);
 
 };
