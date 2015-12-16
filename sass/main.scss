@@ -4,13 +4,16 @@
 @import "_base.scss";
 @import "_print.scss";
 
+//fonts
+@import "_font-awesome";
+
 //mixins
 @import "_mq.scss";
 @import "_mixins.scss";
 @import "_variables.scss";
 
 //layout
-@import "susy/su";
+@import "susy/_su";
 @import "_layout.scss";
 @import "_header.scss";
 @import "_footer.scss";
