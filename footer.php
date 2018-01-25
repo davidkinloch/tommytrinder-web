@@ -3,19 +3,19 @@
                 <div class="footer__block">
                     <h3>Get In Touch</h3>
                     <div class="vcard" itemscope itemtype="http://schema.org/Organization">
-                      <span class="org" itemprop="name">Name,</span>
+                      <span class="org" itemprop="name">Tommy Trinder Ltd</span><br>
                       <span class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                         <span itemprop="streetAddress">
-                          <span class="extended-address">Address 1</span><br/>
-                          <span class="street-address">Address 2</span>
-                        </span>
-                          <span class="locality" itemprop="addressLocality">Town</span>
-                          <span class="postcode" itemprop="postalCode">Postcode</span>
-                          <span class="country" itemprop="postalCountry">Country</span><br/>
+                          <span class="extended-address">3 Portland Place, </span>
+                          <span class="street-address">Pritchard Place</span>
+                        </span><br>
+                          <span class="locality" itemprop="addressLocality">Bristol</span><br>
+                          <span class="postcode" itemprop="postalCode">BS2 8RH</span><br>
+                          <span class="country" itemprop="postalCountry">United Kingdom</span><br/>
                       </span>
 
-                        <span>Tel: <span class="tel" itemprop="telephone">0300 330 3000</span></span>
-                        <p>Email: <a href="mailto:email@url.com" class="email" itemprop="email">email@url.com</a></p>
+                        <span>Tel: <span class="tel" itemprop="telephone">+44 (0)117 3637370</span></span>
+                        <p>Email: <a href="mailto:email@url.com" class="email" itemprop="email">tech@tommytrinder.com</a></p>
                     </div><!-- end of vCard -->
                 </div>
                 <div class="footer__block">
