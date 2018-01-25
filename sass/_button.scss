@@ -1,0 +1,13 @@
+.button {
+    padding: 8px 20px 9px;
+    line-height: 18px;
+    font-size: 16px;
+    font-family: $bold;
+    letter-spacing: 2px;
+    border-radius: 17px;
+	&--primary {
+		background-color: $green;
+    	border-color: #27ae60;
+    	color: #fff;
+	}
+}

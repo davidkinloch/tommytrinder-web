@@ -1,0 +1,14 @@
+body {
+	font-family: $sans-serif;
+}
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+    @include transition(all .3s ease-in);
+}
+
+.title {
+	font-family: $sans-serif;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+}

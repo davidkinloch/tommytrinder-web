@@ -1,0 +1,76 @@
+.section {
+	position: relative;
+	clear: both;
+	overflow:hidden;
+	&__inner {
+		background: $light-grey;
+	}
+	&--hero {
+		margin-top: 80px;
+		height: 60vh;
+		background: url(../assets/build/desktop-beach.jpg) no-repeat center center fixed;
+		background-size: cover;
+		.caption {
+			background: transparent;
+			position: absolute;
+			left: 0;
+			top: 33%;
+			color: #fff;
+			text-align: left;
+			font-size: 1.6em;
+			line-height: 1;
+		}
+	}
+	&--text {
+		padding: 60px;
+		background: $light-grey;
+		font-size: 1.6em;
+		line-height: 1.6;
+	}
+	&--split {
+		.section__inner {
+			@include mq(desktop) {
+				position: relative;
+				float: left;
+				width: 50vw;
+				background: #fff;
+				&:nth-child(even) {
+					&:before {
+					 	display: block;
+					 	float: left;
+						content: "";
+						width: 100%;
+						padding-top: 66.6%;
+					}
+					.caption {
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						bottom: 0;
+						height: 100%;
+						margin: 0;
+						padding: 0 60px;	
+						font-size: 1.4em;
+						 &__inner {
+						  	position: relative;
+  							top: 50%;
+  							transform: translateY(-50%);
+						 } 
+					}
+				}
+			}
+		}
+		.section__inner:first-child {
+			background: #ECF0F1
+;
+		}	
+	}
+	&--inverse {
+		.section__inner {
+			@include mq(desktop) {
+				float: right;
+			}
+		}
+	}
+}
