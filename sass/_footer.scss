@@ -1,0 +1,25 @@
+.footer {
+	background: #333 url(../assets/build/tommy_logo_mid_grey_20_deg.svg) no-repeat calc(100% + 20px) calc(100% + 20px);
+	padding: 40px;
+	color: #FFF;
+	a {
+		color: #FFF;
+	}
+	@include mq(desktop) {
+		float: left;
+		width: 100%;
+	}
+	&__block {
+		margin: 0 0 20px;
+		@include mq(desktop) {
+			display: inline-block;
+			width: 50%;
+			float: left;
+		}
+	}
+}
+.social__item {
+	font-size: 2em;
+	float: left;
+	margin: 0 20px 0 0;
+}

@@ -1,0 +1,23 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background: #333;
+	&__inner {
+		position: relative;
+	}
+	&__logo {
+		background: url(../assets/build/tt-logo-white.svg) no-repeat;
+		display: block;
+		height: 60px;
+		text-indent: -9999em;
+		margin: 10px 0;
+	}
+	.button {
+		position: absolute;
+		right: 0;
+		top: 15px;
+	}
+}

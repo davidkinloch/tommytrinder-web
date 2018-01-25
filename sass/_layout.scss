@@ -5,9 +5,8 @@ body {
 
 .wrapper {
     width: 90%;
-    margin: 0 5%;
+	 margin: 0 auto;
 	@include mq(tablet) {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
+        max-width: 1026px; /* 1140px - 10% for margins */
 	}
 }
