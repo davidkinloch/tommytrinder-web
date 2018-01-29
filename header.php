@@ -19,45 +19,35 @@
         <div class="header">
             <header class="header__inner wrapper">
                 <a href="index.php" class="header__logo">Tommy Trinder</a>
-                <!-- KILL NAV
+              
                 <a href="#" class="nav__toggle" aria-hidden="false">
                     <span>Menu</span>
                 </a>
-                -->
+             
+                <a href="#" class="button button--secondary">Sign In</a>
                 <a href="#" class="button button--primary">Request Access</a>
             </header>
         </div>
 
-        <!-- KILL NAV
         <nav class="nav">
             <ul class="nav__menu">
                 <li class="nav__item">
-                    <a class="nav__link" href="home.php">Home</a>
+                    <a class="nav__link" href="#">Home</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="students.php">Features</a>
+                    <a class="nav__link" href="#">About</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link" href="programs.php">Programs</a>
+                    <a class="nav__link" href="#">Team</a>
                 </li> 
                 <li class="nav__item">
-                    <a class="nav__link" href="staff.php">Staff</a>
+                    <a class="nav__link" href="#">Contact</a>
                 </li> 
                 <li class="nav__item">
-                    <a class="nav__link" href="companies.php">Companies &amp; Partners</a>
-                </li> 
-                <li class="nav__item">
-                    <a class="nav__link" href="qa.php">QA</a>
-                </li> 
-                <li class="nav__item">
-                    <a class="nav__link" href="apply.php">Apply</a>
+                    <a href="#" class="button button--secondary">Sign In</a>
                 </li>       
             </ul>
-            <div class="nav__close">
-                <i class="fa fa-angle-up"></i>
-            </div>
         </nav>
-        -->
         
          <div class="main-container">
             <div class="main clearfix">

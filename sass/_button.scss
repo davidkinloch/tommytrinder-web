@@ -1,13 +1,38 @@
 .button {
-    padding: 8px 20px 9px;
-    line-height: 18px;
+    display: inline-block;
+    padding: 0 20px;
+    height: 38px;
+    line-height: 38px;
     font-size: 16px;
     font-family: $bold;
     letter-spacing: 2px;
-    border-radius: 17px;
+    border: 1px solid transparent;
+    border-radius: 19px;
 	&--primary {
 		background-color: $green;
-    	border-color: #27ae60;
+    	border-color: $green;
     	color: #fff;
+        &:hover {
+            background-color: darken($green,15%);
+        }
 	}
+    &--secondary {
+        border-color: #FFF;
+        color: #FFF;
+        &:hover {
+            background-color: #FFF;
+            color: #333;
+        }
+        .nav & {
+            border-color: #333;
+            color: #333;
+            @include mq(tablet) {
+                margin-top: 13px;
+            }
+            &:hover {
+                background-color: #333;
+                color: #FFF;
+            }
+        }
+    }
 }

@@ -11,13 +11,23 @@
 	&__logo {
 		background: url(../assets/build/tt-logo-white.svg) no-repeat;
 		display: block;
+		width: 144px;
 		height: 60px;
 		text-indent: -9999em;
 		margin: 10px 0;
 	}
-	.button {
+	.button--primary {
 		position: absolute;
-		right: 0;
-		top: 15px;
+		right: 45px;
+		top: 10px;
+	}
+	.button--secondary {
+		position: absolute;
+		right: 265px;
+		top: 10px;
+		display: none;
+		@include mq(tablet) {
+			display: inline-block;
+		}
 	}
 }

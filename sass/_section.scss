@@ -29,11 +29,13 @@
 	}
 	&--split {
 		.section__inner {
+			font-size: 1.2em;
 			@include mq(desktop) {
 				position: relative;
 				float: left;
 				width: 50vw;
 				background: #fff;
+				font-size: 1.4em;
 				&:nth-child(even) {
 					&:before {
 					 	display: block;
@@ -51,7 +53,6 @@
 						height: 100%;
 						margin: 0;
 						padding: 0 60px;	
-						font-size: 1.4em;
 						 &__inner {
 						  	position: relative;
   							top: 50%;
@@ -62,10 +63,13 @@
 			}
 		}
 		.section__inner:first-child {
-			background: #ECF0F1
-;
-		}	
-	}
+			background: #ECF0F1;
+		}
+		 p {
+		 	font-size: .9em;
+		 	line-height: 1.6;
+		 }	
+}
 	&--inverse {
 		.section__inner {
 			@include mq(desktop) {

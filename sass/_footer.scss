@@ -1,6 +1,6 @@
 .footer {
 	background: #333 url(../assets/build/tommy_logo_mid_grey_20_deg.svg) no-repeat calc(100% + 20px) calc(100% + 20px);
-	padding: 40px;
+	padding: 40px 0;
 	color: #FFF;
 	a {
 		color: #FFF;
@@ -18,8 +18,11 @@
 		}
 	}
 }
-.social__item {
-	font-size: 2em;
-	float: left;
-	margin: 0 20px 0 0;
+.social {
+	float: right;
+	&__item {
+		font-size: 2em;
+		float: left;
+		margin: 0 20px 0 0;
+	}
 }
