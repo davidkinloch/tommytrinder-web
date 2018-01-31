@@ -4,8 +4,8 @@
 
 
 //== Colors
-$green:					#27ae60;
-$light-grey:			#DADFE1;
+$green:					       #27ae60;
+$light-grey:			     #DADFE1;
 
 $brand-primary:         #428bca;
 $brand-success:         $green;
@@ -17,7 +17,7 @@ $brand-danger:          #d9534f;
 //** Background color for `<body>`.
 $body-bg:               #fff;
 //** Global text color on `<body>`.
-$text-color:            #333;
+$text-color:            #555;
 //** Global textual link color.
 $link-color:            $brand-primary;
 //** Link hover color set via `darken()` function.
@@ -36,14 +36,28 @@ $link-hover-color:      darken($link-color, 15%);
   font-weight: normal;
   font-style: normal
 }
-
 @font-face {
-  font-family: 'PN-Bold';
-  src: url("../fonts/ProximaNova-Sbold.otf") format("opentype");
+    font-family: "gilroybold";
+    src: url('../fonts/gilroy_bold-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gilroysemibold';
+    src: url('../fonts/gilroy_semi_bold-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy_semi_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 $sans-serif:  'gilroylight', Helvetica, Arial, sans-serif;
 $serif:       Georgia, "Times New Roman", Times, serif;
-$title:			'gilroyextrabold';
-$bold:       'PN-Bold';
+$extrabold:	 'gilroyextrabold';
+$bold:       "gilroybold";
+$semibold:   'gilroysemibold';
+
+
 

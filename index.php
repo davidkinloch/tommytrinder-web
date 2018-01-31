@@ -2,16 +2,13 @@
       
 <div class="section section--hero">
     <div class="section__inner wrapper">
-        <div class="caption">
-            <h1 class="title">Tommy<br>Trinder</h1>
-            <h2 class="subtitle">As Simple as Sketching on a Pad</h2>
-        </div>
     </div>
 </div>
 
 <div class="section section--text">
     <div class="section__inner">
         <div class="caption">
+            <h2 class="title">As Simple as Sketching on a Pad</h2>
             <p>With an interface as simple as sketching on a pad, Tommy Trinder (cockney rhyming slang for ‘window’) uses unique Framepoint® web technology to convert touch-screen input into accurate, photorealistic renditions of windows and doors. Once drawn, overlay your designs onto your client’s home using our ground breaking Makeover tool. All the while products are priced in real time and orders may be placed with multiple suppliers with one click.</p>
         </div>
     </div>
