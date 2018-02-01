@@ -34,12 +34,11 @@
 	&--split {
 		.section__inner {
 			font-size: 1.2em;
+			background: #fff;
 			@include mq(desktop) {
 				position: relative;
 				float: left;
 				width: 50vw;
-				background: #fff;
-				font-size: 1.4em;
 				&:nth-child(even) {
 					&:before {
 					 	display: block;
@@ -64,6 +63,9 @@
 						 } 
 					}
 				}
+			}
+			@include mq(deskmid) {
+				font-size: 1.4em;
 			}
 		}
 		.section__inner:first-child {
