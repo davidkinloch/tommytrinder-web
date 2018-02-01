@@ -16,7 +16,7 @@
 
 <div class="section section--split">
     <div class="section__inner">
-        <img src="assets/build/ipad-draw.jpg" alt="dummy image" /> 
+        <img src="assets/build/virtual-showroom.jpg" alt="Tommy Trinder - Virtual Showroom" /> 
     </div>
     <div class="section__inner">
         <div class="caption">
@@ -30,7 +30,7 @@
 
 <div class="section section--split section--inverse">
     <div class="section__inner">
-        <img src="assets/build/ipad-table.jpg" alt="dummy image" /> 
+        <img src="assets/build/many-suppliers.jpg" alt="Tommy Tinder - Many Suppliers" /> 
     </div>
     <div class="section__inner">
         <div class="caption">
@@ -45,7 +45,7 @@
 
 <div class="section section--split">
     <div class="section__inner">
-        <img src="assets/build/ipad-float.png" alt="dummy image" /> 
+        <img src="assets/build/price.png" alt="Tommy Trinder - Price in Materials" /> 
     </div>
     <div class="section__inner">
         <div class="caption">
@@ -59,7 +59,7 @@
 
 <div class="section section--split section--inverse">
     <div class="section__inner">
-        <img src="assets/build/ipads.png" alt="dummy image" /> 
+        <img src="assets/build/overlay-v2.png" alt="The Visualisator" /> 
     </div>
     <div class="section__inner">
         <div class="caption">
@@ -87,13 +87,14 @@
 
 <div class="section section--split section--inverse">
     <div class="section__inner">
-        <img src="assets/build/ipads.png" alt="dummy image" /> 
+        <img src="assets/build/docs.png" alt="dummy image" /> 
     </div>
     <div class="section__inner">
         <div class="caption">
             <div class="caption__inner">
                 <h3 class="title">First Class Documentation for Clients &amp; Suppliers</h3>
-                <p>Impress and minimise error with a quotation showing inside and outside, photorealistic renditions in full colour. Customise with your brand, your payment terms, your lead times, your salesman’s name. Deliver clean orders to suppliers, specifically tailored to the needs of their order processing teams.</p>
+                <p>Impress and minimise error with a quotation showing inside and outside, photorealistic renditions in full colour. Customise with your brand, your payment terms, your lead times, your salesman’s name. Deliver clean orders to suppliers, specifically tailored to the needs of their order processing teams.</p><br>
+                <p><a class="button button--primary" href="assets/build/Sample_Special_RAL_Windows.pdf"><i class="fa fa-pdf"></i>Download Sample Order PDF</a>
             </div>
         </div>
     </div>
