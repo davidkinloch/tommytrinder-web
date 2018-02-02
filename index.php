@@ -2,6 +2,9 @@
       
 <div class="section section--hero">
     <div class="section__inner wrapper">
+        <div class="caption">
+            <img src="assets/build/tt-logo-white.svg">
+        </div>
     </div>
 </div>
 
@@ -45,7 +48,7 @@
 
 <div class="section section--split">
     <div class="section__inner">
-        <img src="assets/build/price.png" alt="Tommy Trinder - Price in Materials" /> 
+        <img src="assets/build/price-p.png" alt="Tommy Trinder - Price in Materials" /> 
     </div>
     <div class="section__inner">
         <div class="caption">

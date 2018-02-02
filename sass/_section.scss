@@ -13,12 +13,16 @@
 		.caption {
 			background: transparent;
 			position: absolute;
-			left: 0;
 			top: 33%;
 			color: #fff;
 			text-align: left;
 			font-size: 1.6em;
 			line-height: 1;
+			max-wdth: 1026px;
+			@include mq(deskmid) {
+				left: 50%;
+				margin-left: -513px;
+			}
 		}
 	}
 	&--text {
