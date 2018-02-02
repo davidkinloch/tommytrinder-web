@@ -48,7 +48,7 @@
 
 <div class="section section--split">
     <div class="section__inner">
-        <img src="assets/build/price-p.png" alt="Tommy Trinder - Price in Materials" /> 
+        <img src="assets/src/price-p.png" alt="Tommy Trinder - Price in Materials" /> 
     </div>
     <div class="section__inner">
         <div class="caption">
