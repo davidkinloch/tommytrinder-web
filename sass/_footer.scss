@@ -17,6 +17,11 @@
 			float: left;
 		}
 	}
+	&--video {
+		position: absolute;
+		width: 100%;
+		bottom: -340px;
+	}
 }
 .social {
 	float: right;
