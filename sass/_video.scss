@@ -1,16 +1,25 @@
 .section--video {
-  height: 100vh;
+  background: transparent;
+   @include mq(tablet) { 
+      height: 100vh;
+    }
+  
   .title {
     font-size: 20px;
     line-height: 1.2;
 
   }
   .section__inner {
-    position: absolute;
-    bottom: 0;
+    @include mq(tablet) {  
+      position: absolute;
+      bottom: 0;
+    }
     @include mq(tablet) {
       width: 33vh;
       bottom:35vh;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);    
     }
     p {
       margin-bottom: 16px;
@@ -23,20 +32,26 @@
 }
 
 video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-    background-size: cover;
-    transition: 1s opacity;
-    
+  padding-top:80px;
+  width: 100%;
+  vertical-align: top;
 
+    @include mq(tablet) {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+      background: url('../assets/build/tt-home-video.jpg') no-repeat;
+      background-size: cover;
+      transition: 1s opacity;
+      padding: 0;
+      vertical-align: middle;
+    }
 }
 .stopfade { 
    opacity: .5;

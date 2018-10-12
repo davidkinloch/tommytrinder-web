@@ -18,9 +18,11 @@
 		}
 	}
 	&--video {
-		position: absolute;
-		width: 100%;
-		bottom: -340px;
+		@include mq(tablet) {
+			position: absolute;
+			width: 100%;
+			bottom: -340px;
+		}
 	}
 }
 .social {
