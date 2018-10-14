@@ -16,16 +16,12 @@
         
     </head>
     <body>
-        <div class="header">
-            <header class="header__inner wrapper">
+        <div class="header header">
+            <header class="header__inner">
                 <a href="index.php" class="header__logo">Tommy Trinder</a>
-              
                 <a href="#" class="nav__toggle" aria-hidden="false">
                     <span>Menu</span>
                 </a>
-             
-                <a href="#" class="button button--secondary">Sign In</a>
-                <a href="#" class="button button--primary">Request Access</a>
             </header>
         </div>
 

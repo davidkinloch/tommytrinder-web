@@ -4,15 +4,20 @@
 	left: 0;
 	width: 100%;
 	z-index: 9999;
-	background: #333;
+	background: #FFF;
+	@include mq(tablet) {
+		background: transparent;
+	}
 	&__inner {
 		position: relative;
+		padding: 0 20px;
 	}
 	&__logo {
-		background: url(../assets/build/tt-logo-white.svg) no-repeat;
+		background: url(../assets/build/tt-logo-black.svg) no-repeat;
 		display: block;
 		width: 144px;
 		height: 60px;
+		background-size: 144px 60px;
 		text-indent: -9999em;
 		margin: 10px 0;
 	}
