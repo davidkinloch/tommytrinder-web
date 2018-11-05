@@ -1,12 +1,12 @@
 <?php include 'header.php'; ?>
       
 <div class="section section--video">
-       <video poster="assets/build/tt-home-video.jpg" id="bgvid" playsinline autoplay muted loop>
+       <video poster="assets/build/Sequence01c.jpg" id="bgvid" playsinline autoplay muted loop>
           <!-- 
         - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
         WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-        <source src="tt-home-video.webm" type="video/webm">
-        <source src="tt-home-video.mp4" type="video/mp4">
+        <source src="Sequence01c.webm" type="video/webm">
+        <source src="Sequence01c.mp4" type="video/mp4">
 
         </video>
         <div class="section__inner">
