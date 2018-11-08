@@ -6,6 +6,9 @@
 	z-index: 9999;
 	background: #FFF;
 	@include mq(tablet) {
+		background: rgba(250,250,250, .9);
+	}
+	@include mq(desktop) {
 		background: transparent;
 	}
 	&__inner {
