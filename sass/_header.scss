@@ -20,6 +20,12 @@
 		background-size: 144px 60px;
 		text-indent: -9999em;
 		margin: 10px 0;
+		transition: all .3s ease-in-out;
+		@include mq(wide) {
+			width: 288px;
+			height: 120px;
+			background-size: 288px 120px;
+		}
 	}
 	.button--primary {
 		position: absolute;

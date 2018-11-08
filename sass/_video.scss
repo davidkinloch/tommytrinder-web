@@ -13,13 +13,14 @@
     @include mq(tablet) {  
       position: absolute;
       bottom: 0;
-    }
-    @include mq(tablet) {
       width: 33vh;
-      bottom:35vh;
+      bottom: 30px;
       border-top-right-radius: 3px;
       border-bottom-right-radius: 3px;
-      //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);    
+    }
+    @include mq(wide) {
+      background: transparent;
+      bottom:35vh;
     }
     p {
       margin-bottom: 16px;
