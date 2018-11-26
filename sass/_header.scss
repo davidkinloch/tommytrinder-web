@@ -4,9 +4,9 @@
 	left: 0;
 	width: 100%;
 	z-index: 9999;
-	background: #FFF;
+	background: #333;
 	@include mq(tablet) {
-		background: rgba(250,250,250, .9);
+		background: #333;
 	}
 	@include mq(desktop) {
 		background: transparent;
@@ -16,23 +16,29 @@
 		padding: 0 20px;
 	}
 	&__logo {
-		background: url(../assets/build/tt-logo-black.svg) no-repeat;
+		background: url(../assets/build/tt-logo-white.svg) no-repeat;
 		display: block;
 		width: 144px;
 		height: 60px;
 		background-size: 144px 60px;
 		text-indent: -9999em;
-		margin: 10px 0;
+		margin: 5px 0;
 		transition: all .3s ease-in-out;
 		@include mq(wide) {
 			width: 288px;
 			height: 120px;
 			background-size: 288px 120px;
 		}
+    @media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)  {
+      width: 288px;
+      height: 120px;
+      background-size: 288px 120px;
+    }
+
 	}
 	.button--primary {
 		position: absolute;
-		right: 45px;
+		right: 20px;
 		top: 10px;
 	}
 	.button--secondary {

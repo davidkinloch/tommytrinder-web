@@ -1,6 +1,5 @@
 .footer {
-	background: #333 url(../assets/build/tommy_logo_mid_grey_20_deg.svg) no-repeat calc(100% + 20px) calc(100% + 20px);
-	padding: 40px 0;
+	text-align: center;
 	color: #FFF;
 	a {
 		color: #FFF;
@@ -32,4 +31,17 @@
 		float: left;
 		margin: 0 20px 0 0;
 	}
+}
+.credits {
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 10px 20px 0;
+    color: #FFF;
+    letter-spacing: 1px;
+    text-align: center;
+    @include mq(tablet) {
+      position: fixed;
+      right: 0px;
+      bottom: 5px;
+    }
 }

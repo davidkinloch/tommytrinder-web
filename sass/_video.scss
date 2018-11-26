@@ -7,7 +7,9 @@
   .title {
     font-size: 20px;
     line-height: 1.2;
-
+    @include mq(wide) {
+      
+    }
   }
   .section__inner {
     @include mq(tablet) {  
@@ -19,9 +21,34 @@
       border-top-right-radius: 3px;
       border-bottom-right-radius: 3px;
     }
+    .caption {
+      @include mq(wide) {
+        text-align: left;
+      }
+       @media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)  {
+        text-align: left;
+      }
+    }
     @include mq(wide) {
       background: transparent;
-      bottom:35vh;
+      top: 25vh;
+      color:#FFF;
+      text-align: left;
+    }
+    @media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)  {
+      background: transparent;
+      top: 25vh;
+      color:#FFF;
+      text-align: left;
+    }
+    h1 {
+      text-transform: capitalize;
+      @include mq(wide) {
+        font-size: 40px;
+      }
+       @media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)  {
+        font-size: 40px;
+      }
     }
     p {
       margin-bottom: 16px;
@@ -35,8 +62,9 @@
 
 video { 
   padding-top:80px;
-  width: 100%;
+  width: 200%;
   vertical-align: top;
+  margin-left: -50%;
 
     @include mq(tablet) {
       position: fixed;
@@ -48,11 +76,14 @@ video {
       height: auto;
       z-index: -100;
       transform: translateX(-50%) translateY(-50%);
-      background: url('../assets/build/tt-home-video.jpg') no-repeat;
+      background: #333 no-repeat;
       background-size: cover;
       transition: 1s opacity;
-      padding: 0;
       vertical-align: middle;
+      margin-left: 0%;
+    }
+    @include mq(wide) {
+      padding: 0;
     }
 }
 .stopfade { 
