@@ -88,4 +88,10 @@
 			}
 		}
 	}
+  &--vimeo {
+    margin: 70px auto 0;
+    @include mq(tablet) {
+      margin-top: 0;
+    }
+  }
 }
