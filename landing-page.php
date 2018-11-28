@@ -44,7 +44,7 @@
 
 <div class="section section--split">
     <div class="section__inner">
-        <img src="assets/src/price-p.png" alt="Tommy Trinder - Price in Materials" /> 
+        <img src="assets/build/combi-960.png" alt="Tommy Trinder - Price in Materials" /> 
     </div>
     <div class="section__inner">
         <div class="caption">
@@ -72,7 +72,7 @@
 
 <div class="section section--split">
     <div class="section__inner">
-        <img src="assets/build/ipad-float.png" alt="dummy image" /> 
+        <img src="assets/build/coupled-960.png" alt="dummy image" /> 
     </div>
     <div class="section__inner">
         <div class="caption">
@@ -93,17 +93,18 @@
             <div class="caption__inner">
                 <h3 class="title">First Class Documentation for Clients &amp; Suppliers</h3>
                 <p>Impress and minimise error with a quotation showing inside and outside, photorealistic renditions in full colour. Customise with your brand, your payment terms, your lead times, your salesman’s name. Deliver clean orders to suppliers, specifically tailored to the needs of their order processing teams.</p><br>
-                <p><a class="button button--primary" href="assets/build/Sample_Special_RAL_Windows.pdf"><i class="fa fa-pdf"></i>Download Sample Order PDF</a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section section--text">
-    <div class="section__inner">
+<div class="section section--text" style="background: #FFF; padding-top: 0; border-top: 46px solid #333;">
+    <div class="section__inner" style="background: #FFF;">
         <div class="caption">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id neque sapien. Sed at lectus tristique, elementum tortor et, pretium risus. Proin sed faucibus metus, non fringilla turpis. Vivamus ac semper nisi.</p><br>
-            <p><a href="#" class="button button--primary">Get More Details</a></p>
+          <h3 class="title">NOW LAUNCHING WITH THE INDUSTRY’S FINEST BRANDS</h3><br>
+          <p><img src="assets/build/company-logos.jpg"></p><br>
+            <p>Want to know more?<br>We’d love to hear from manufacturers and installers interested in our platform..</p><br>
+            <p><a href="mailto:info@tommytrinder.com" class="button button--primary">Contact Us</a></p>
         </div>
     </div>
 </div>

@@ -21,7 +21,7 @@
         <div class="header header">
             <header class="header__inner">
                 <a href="index.php" class="header__logo">Tommy Trinder</a>
-                <a href="#" class="button button--primary">Contact Us</a>
+                <a href="mailto:info@tommytrinder.com" class="button button--primary">Contact Us</a>
             </header>
         </div>
         
