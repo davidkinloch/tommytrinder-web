@@ -98,7 +98,7 @@
     </div>
 </div>
 
-<div class="section section--text" style="background: #FFF; padding-top: 0; border-top: 46px solid #333;">
+<div class="section section--text" style="background: #FFF; border-top: 46px solid #333;">
     <div class="section__inner" style="background: #FFF;">
         <div class="caption">
           <h3 class="title">NOW LAUNCHING WITH THE INDUSTRY’S FINEST BRANDS</h3><br>
