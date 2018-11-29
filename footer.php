@@ -1,6 +1,6 @@
         <footer class="footer">
             <div class="wrapper">
-                <p class="copyright">Copyright &copy;2018 Tommy Trinder Ltd<br>
+                <p class="copyright">Copyright &copy;2018 TommyTrinder.com Ltd<br>
                 Framepoint Technology® is a registered trademark of TommyTrinder.com Ltd. Pat.Pend.</p>
                   <!--
                       <div class="footer__block">
