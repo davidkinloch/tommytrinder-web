@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-    <html> 
-    <head>
-        <meta charset="utf-8">
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Frontend Templates</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">

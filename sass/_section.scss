@@ -94,4 +94,20 @@
       margin-top: 0;
     }
   }
+  &--404 {
+    padding-top: 100px;
+    background: #333;
+    font-size: 1.2em;
+    line-height: 1.6;
+    @include mq(tablet) {
+      font-size: 1.6em;
+    }
+    .section__inner {
+      background: #333;
+      color: $light-grey;
+      a {
+        color: #fff;
+      }
+    }
+  }
 }

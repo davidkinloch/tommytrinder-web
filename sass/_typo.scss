@@ -3,10 +3,12 @@ body {
 }
 a {
 	text-decoration: none;
-	text-transform: uppercase;
-    @include transition(all .3s ease-in);
+  @include transition(all .3s ease-in);
 }
 
+h1 {
+  font-size: 1.5em;
+}
 .title {
 	font-family: $semibold;
 	text-transform: uppercase;

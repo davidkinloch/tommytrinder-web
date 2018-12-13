@@ -1,4 +1,10 @@
-<?php include 'header.php'; ?>
+<!DOCTYPE html>
+    <html> 
+    <head>
+        <meta charset="utf-8">
+        <title>About | Tommy Trinder Ltd</title>
+        <meta name="description" content="Learn more about double glazing application."/>
+        <?php include 'header.php'; ?>
       
 <div class="section section--vimeo" style="max-width: 1680px;">
     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/281562791?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -7,7 +13,7 @@
 <div class="section section--text">
     <div class="section__inner">
         <div class="caption">
-            <h2 class="title">As Simple as Sketching on a Pad</h2>
+            <h1 class="title">As Simple as Sketching on a Pad</h1>
             <p>With an interface as simple as sketching on a pad, Tommy Trinder (cockney rhyming slang for ‘window’) uses unique Framepoint® web technology to convert touch-screen input into accurate, photorealistic renditions of windows and doors. Once drawn, overlay your designs onto your client’s home using our ground breaking Makeover tool. All the while products are priced in real time and orders may be placed with multiple suppliers with one click.</p>
         </div>
     </div>
