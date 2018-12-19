@@ -1,3 +1,9 @@
+<?php
+ 
+// grab recaptcha library
+require_once "recaptchalib.php";
+ 
+?>
 <div class="modal">
   <div class="modal__bg">
     <div class="modal__box">
