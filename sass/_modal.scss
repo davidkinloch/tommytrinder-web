@@ -1,27 +1,37 @@
 .modal {
-  //display: none;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   &__bg {
-    position: relative;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background: rgba(0,0,0,.6);
-  }  
+  }
+  &__box {
+    width: 100%;
+    max-width: 540px;
+    margin: 70px auto 0;
+    background: #fff;
+    transition: all .3s ease-in;
+    border-radius: 3px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    @include mq(deskmid) {
+      margin-top: 140px;
+    }
+  }
+  &__title {
+    font-family: $bold;
+    font-size: 1.6em;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    @include mq(tablet) {
+      padding-top: 30px; 
+    }
+  }
 }
 
-form {
-  width: 440px + 60px;
-  margin: 200px auto 0;
-  background: #FFF;
-  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
-  padding: 0 0 40px;
-  border-radius: 3px;
-  color: #ccc;
-  opacity: 1;
-  transform: translate(0%, 0%);
-  transition: all .6s ease-in;
-  }

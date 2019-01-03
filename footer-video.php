@@ -1,6 +1,12 @@
        <p class="credits">Copyright &copy;2018 TommyTrinder.com Ltd<br>Framepoint Technology® is a registered trademark of TommyTrinder.com Ltd. Pat.Pend.</p>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        
+ 
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+              <script src='https://www.google.com/recaptcha/api.js'></script>
+              <script src="validator.js"></script>
+              <script src="contact.js"></script>
 
         <script src="js/build/production.min.js"></script>
 

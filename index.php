@@ -20,6 +20,8 @@
                   <p><a href="about" class="button button--primary">Watch Full Video</a></p>
               </div>
           </div>
-        </div> 
+        </div>
+
+        <?php include 'modal.php'; ?>
         <?php include 'footer-video.php'; ?>
 

@@ -76,7 +76,7 @@
 
                         <p class="text-muted">
                             <strong>*</strong> These fields are required. Contact form template by
-                        </p>
+                                </p>
 
                     </div>
 

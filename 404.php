@@ -26,7 +26,7 @@
     </div>
 </div>
 
-              
+<?php include 'modal.php'; ?>
 
 <?php include 'footer.php'; ?>
 
