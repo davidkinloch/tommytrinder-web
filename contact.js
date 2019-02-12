@@ -19,12 +19,14 @@ $(function () {
                 url: url,
                 data: $(this).serialize(),
                 success: function (data) {
+                    console.log("ajax complete");
                     var messageAlert = 'alert-' + data.type;
                     var messageText = data.message;
 
-                    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
+                    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable">' + messageText + '<span id="killer" class="button button--primary">Close</span></div>';
                     if (messageAlert && messageText) {
                         $('#contact-form').find('.messages').html(alertBox);
+                        $('.form-kill').remove();
                         $('#contact-form')[0].reset();
                         grecaptcha.reset();
                     }
@@ -33,4 +35,10 @@ $(function () {
             return false;
         }
     })
+});
+
+
+$(document).on("click","#killer", function () {
+    $('.header .button--primary').removeClass('active').html("Contact Us");
+    $('.modal').removeClass('active').fadeOut( "fast" ); 
 });

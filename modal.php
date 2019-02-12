@@ -4,13 +4,14 @@
     <div class="modal__box">
         <div class="container">
           <div class="row">
+                  
                   <form id="contact-form" method="post" action="contact.php" role="form">  
-                  <div class="row">
+                  <div class="messages"></div>
+                  <div class="row form-kill">
                     <div class="col-lg-6"> 
                       <h3 class="modal__title">Contact Us</h3>
-                      <div class="messages"></div>
-                    </div>
-                  </div>
+                      
+                   
                       <div class="controls">
                           <div class="row">
                               <div class="col-lg-6">
@@ -68,6 +69,8 @@
                                 </p>
                               </div>
                             </div>
+                        </div>
+                  </div>
       
                   </form>
               </div>

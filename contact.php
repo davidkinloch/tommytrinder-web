@@ -4,10 +4,10 @@ require('recaptcha-master/src/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <info@davidkinloch.com>';
+$from = 'Contact form <info@davidkinloch.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <dkinloch@gmail.com>';
+$sendTo = 'Contact form <dkinloch@gmail.com>';
 
 // subject of the email
 $subject = 'New message from contact form';
@@ -17,7 +17,7 @@ $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Contact form successfully submitted. Thank you, TT will get back to you soon!';
 
 // If something goes wrong, we will display this message.
 $errorMessage = 'There was an error while submitting the form. Please try again later';
@@ -87,4 +87,5 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
     echo $encoded;
 } else {
     echo $responseArray['message'];
+
 }

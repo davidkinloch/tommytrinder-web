@@ -1,4 +1,5 @@
 $(function() {
+ console.log( "doc triggered" );
 	$('.nav__toggle').click( function(e) {
     	e.preventDefault();
     	$(this).toggleClass('active');
@@ -27,3 +28,6 @@ $(function() {
 	    }
 	  });
 });
+
+
+

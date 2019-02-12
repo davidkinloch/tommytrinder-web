@@ -11,6 +11,7 @@
     text-decoration: none;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in;
+    outline: none;
 	&--primary {
 		background-color: $green;
     	border-color: $green;
