@@ -60,7 +60,7 @@
 
                                 <div class="form-group">
                                     <div class="g-recaptcha" data-sitekey="6LdEWYMUAAAAAJx8N9OqkPFOnK5dllqZi4w_AWAy" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                                    <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                                    <input class="form-control d-none hidden" data-recaptcha="true" required data-error="Please complete the Captcha">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <input type="submit" class="btn btn-success btn-send button button--primary" value="Send message">
